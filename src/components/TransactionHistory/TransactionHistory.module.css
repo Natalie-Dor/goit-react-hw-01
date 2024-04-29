@@ -1,0 +1,21 @@
+/* Отступы */
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+.thead {
+  background: rgb(50, 49, 49);
+  color: white;
+  /* text-shadow: 1px 1px 1px black; */
+}
+tbody tr:nth-child(odd) {
+  background-color: #eee7ee;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #928d92;
+}
