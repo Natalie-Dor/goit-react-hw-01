@@ -3,3 +3,12 @@
   border-radius: 8px;
   padding: 8px;
 }
+.text {
+  font-size: 14px;
+}
+.online {
+  color: rgb(45, 177, 45);
+}
+.offline {
+  color: rgb(174, 4, 4);
+}
